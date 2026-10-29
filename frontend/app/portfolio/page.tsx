@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 import EnhancedNavbar from "./components/navbar-section";
 export const metadata: Metadata = {
-    title: "Portfolio | Nitin Sharma - Full-Stack AI Engineer",
+    title: "Portfolio | Pintu Singh - Full-Stack AI Engineer & Founder of DeCodeTech",
     description:
-        "AI systems, agentic pipelines, and full-stack applications — portfolio of Nitin Sharma, SWE Intern @ AcdyOn Technologies. National hackathon finalist.",
+        "Full-Stack AI Engineer, Founder of DeCodeTech, and B.Tech CS & AI student at Newton School of Technology. Building intelligent AI systems, RAG pipelines, and full-stack solutions.",
 };
 
 export default function PortfolioPage() {

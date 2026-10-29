@@ -3,10 +3,10 @@ import { BadgeCheck } from 'lucide-react';
 import { Section } from '@/components/ui/section';
 
 const skills = {
-    "AI & Agents": ["LangChain Orchestration", "RAG Pipelines", "LLM Integration", "n8n Automation", "AI Agent Design", "Human-Takeover Protocols"],
-    "Backend": ["FastAPI", "Django & DRF", "REST APIs", "JWT Auth", "BackgroundTasks", "WebHooks"],
-    "Frontend": ["React", "Next.js", "TypeScript", "TailwindCSS", "Framer Motion"],
-    "Soft Skills": ["Technical Communication", "Freelance Delivery", "Technical Writing", "Problem Solving"]
+    "AI & Machine Learning": ["Generative AI", "LLM Integration", "RAG Pipelines", "Agentic AI", "AI System Design", "Vector Databases"],
+    "Backend Engineering": ["Python", "Node.js", "FastAPI", "RESTful APIs", "JWT Auth", "Database Design"],
+    "Frontend Development": ["React.js", "Next.js", "JavaScript (ES6+)", "TypeScript", "TailwindCSS", "Responsive UI/UX"],
+    "Leadership & Core": ["DeCodeTech Startup", "System Architecture", "Problem Solving", "Rapid Prototyping"]
 };
 
 const itemVariants = {

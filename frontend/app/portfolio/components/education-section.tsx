@@ -8,17 +8,16 @@ interface Education {
     duration: string;
     degree: string;
     field: string;
-    affiliation: string;
+    location: string;
 }
 
 const education = [
   {
-        institution: "Inderprastha Engineering College",
-    degree: "Bachelor of Technology",
-    field: "Computer Science & Engineering",
-    duration: "2024 - 2028",
-    location: "Ghaziabad, India",
-    affiliation: "Dr. A.P.J Abdul Kalam Technical University (AKTU)"
+    institution: "Newton School of Technology",
+    degree: "Bachelor of Technology (B.Tech)",
+    field: "Computer Science and Artificial Intelligence",
+    duration: "Graduation: 2027",
+    location: "India",
   }
 ];
 
@@ -47,19 +46,19 @@ export default function EducationSection() {
                                 </span>
                             </div>
                             <p className="text-sm md:text-lg font-medium text-foreground">{edu.degree} in {edu.field}</p>
-                            <p className="text-xs md:text-sm text-muted-foreground mt-1">Affiliated with {edu.affiliation}</p>
+                            <p className="text-xs md:text-sm text-muted-foreground mt-1">Location: {edu.location}</p>
                             <div className="mt-4 pt-4 border-t border-border/50">
                                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                                     <div className="h-1.5 w-1.5 rounded-full bg-primary"></div>
-                                    <span>Focused on web technologies, data structures, and algorithms</span>
+                                    <span>Specialized in Artificial Intelligence, Machine Learning, and Agentic Systems</span>
                                 </div>
                                 <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
                                     <div className="h-1.5 w-1.5 rounded-full bg-primary"></div>
-                                    <span>Participated in coding clubs and technical events</span>
+                                    <span>Hands-on full-stack engineering with modern frameworks, Python, and distributed systems</span>
                                 </div>
                                 <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
                                     <div className="h-1.5 w-1.5 rounded-full bg-primary"></div>
-                                    <span>Completed capstone project on community-driven development platforms</span>
+                                    <span>Founder of DeCodeTech startup focused on intelligent technology solutions</span>
                                 </div>
                             </div>
                         </div>

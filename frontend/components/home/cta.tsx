@@ -75,15 +75,10 @@ export function CtaSection() {
               </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg">
+            <div>
+              <Button asChild size="lg" className="rounded-full px-8">
                 <Link href="/contact">
-                  Let's work together
-                </Link>
-              </Button>
-              <Button variant="outline" size="lg" asChild>
-                <Link href="/services">
-                  View my services
+                  Get in touch
                 </Link>
               </Button>
             </div>

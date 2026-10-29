@@ -2,12 +2,11 @@ import { Metadata } from "next";
 import { Hero } from "@/components/home/hero";
 import { ServicesPreview } from "@/components/home/services-preview";
 import { FeaturedProjects } from "@/components/home/featured-projects";
-import { TestimonialsSection } from "@/components/home/testimonials";
 import { CtaSection } from "@/components/home/cta";
 
 export const metadata: Metadata = {
-  title: "Nitin Sharma | Full-Stack AI Engineer",
-  description: "Building agentic AI systems, RAG pipelines, and production-grade full-stack apps. National hackathon finalist.",
+  title: "Pintu Singh | Full-Stack AI Engineer & Founder of DeCodeTech",
+  description: "Full-Stack AI Engineer & Founder of DeCodeTech. Building intelligent AI systems, LLM & RAG pipelines, and modern full-stack web applications.",
 };
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
       <Hero />
       <ServicesPreview />
       <FeaturedProjects />
-      <TestimonialsSection />
       <CtaSection />
     </div>
   );

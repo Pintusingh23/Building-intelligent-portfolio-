@@ -9,7 +9,7 @@ import { AnimatedText } from "@/components/ui/animated-text";
 import RotatingText from '@/components/ui/RotatingText'
 import Squares from '@/components/ui/Squares';
   
-const skills = [" LangChain", " FastAPI", " Python", " AI Agents", " Next.js", " React.js"];
+const skills = [" React.js", " Python", " Node.js", " Agentic AI", " LLMs & RAG", " Next.js"];
 
 export function Hero() {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
@@ -54,7 +54,7 @@ export function Hero() {
 
   return (
     <> 
-      <section ref={heroRef as React.RefObject<HTMLElement>} className="relative pt-24 md:pt-32 pb-16 md:pb-32 overflow-hidden">
+      <section ref={heroRef as React.RefObject<HTMLElement>} className="relative pt-24 md:pt-32 pb-16 md:pb-32 overflow-hidden bg-white">
         {/* Decorative semi-circle background element */}
         <div className="absolute -right-1/4 top-1/2 -translate-y-1/2 w-2/3 aspect-square">
           <div className="relative w-full h-full">
@@ -164,7 +164,7 @@ export function Hero() {
                           animate={{ opacity: 1 }}
                           transition={{ duration: 0.5, delay: 0.5 }}
                         >
-                          <p className="mb-1 text-slate-500 dark:text-white/70">// Quick intro</p>
+                          <p className="mb-1 text-slate-500 dark:text-white/70">{"// Quick intro"}</p>
                           <p>
                             <span className="text-blue-700 dark:text-blue-400">const</span>{" "}
                             <span className="text-green-700 dark:text-green-400">dev</span> = {"{"}
@@ -176,7 +176,7 @@ export function Hero() {
                             className="ml-2"
                           >
                             <span className="text-amber-700 dark:text-yellow-400">name</span>:{" "}
-                            <span className="text-orange-700 dark:text-orange-400">'Nitin'</span>,
+                            <span className="text-orange-700 dark:text-orange-400">'Pintu Singh'</span>,
                           </motion.p>
                           <motion.p
                             initial={{ opacity: 0, x: -10 }}
@@ -185,7 +185,7 @@ export function Hero() {
                             className="ml-2"
                           >
                             <span className="text-amber-700 dark:text-yellow-400">role</span>:{" "}
-                            <span className="text-orange-700 dark:text-orange-400">'AI Engineer'</span>,
+                            <span className="text-orange-700 dark:text-orange-400">'Full-Stack AI Engineer'</span>,
                           </motion.p>
                           <motion.p
                             initial={{ opacity: 0, x: -10 }}
@@ -296,7 +296,7 @@ export function Hero() {
 
               <p className="text-lg text-slate-600 dark:text-muted-foreground mb-8 max-w-xl">
                 I build agentic AI systems, RAG pipelines, and production-grade full-stack applications.
-                SWE Intern @ AcdyOn Technologies. National hackathon finalist.
+                Founder of DeCodeTech & B.Tech CS & AI at Newton School of Technology.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -305,9 +305,6 @@ export function Hero() {
                     View my work
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
-                </Button>
-                <Button data-cursor-interactive variant="outline" size="lg" asChild className="border-blue-200 dark:border-primary/20 hover:bg-blue-50 dark:hover:bg-primary/5">
-                    <Link href="/contact">Let's work together</Link>
                 </Button>
               </div>
 
@@ -368,7 +365,7 @@ export function Hero() {
                           animate={{ opacity: 1 }}
                           transition={{ duration: 0.5, delay: 0.5 }}
                         >
-                          <p data-cursor-interactive className="mb-3 text-slate-500 dark:text-white/70">// Introducing myself</p>
+                          <p data-cursor-interactive className="mb-3 text-slate-500 dark:text-white/70">{"// Introducing myself"}</p>
                           <p data-cursor-interactive>
                             <span className="text-blue-700 dark:text-blue-400">const</span>{" "}
                             <span className="text-green-700 dark:text-green-400">developer</span> ={" "}
@@ -382,7 +379,7 @@ export function Hero() {
                             className="ml-4"
                           >
                             <span className="text-amber-700 dark:text-yellow-400">name</span>:{" "}
-                            <span className="text-orange-700 dark:text-orange-400">'Nitin Sharma'</span>,
+                            <span className="text-orange-700 dark:text-orange-400">'Pintu Singh'</span>,
                           </motion.p>
                           <motion.p
                             data-cursor-interactive
@@ -392,7 +389,7 @@ export function Hero() {
                             className="ml-4"
                           >
                             <span className="text-amber-700 dark:text-yellow-400">title</span>:{" "}
-                            <span className="text-orange-700 dark:text-orange-400">'AI Engineer'</span>,
+                            <span className="text-orange-700 dark:text-orange-400">'Full-Stack AI Engineer'</span>,
                           </motion.p>
                           <motion.p
                             data-cursor-interactive
@@ -462,7 +459,7 @@ export function Hero() {
                 >
                   <div className="flex items-center gap-2">
                     <Zap className="h-3 w-3 text-amber-600 dark:text-amber-400" />
-                    <span className="text-xs font-medium">SWE Intern @ AcdyOn</span>
+                    <span className="text-xs font-medium">Founder @ DeCodeTech</span>
                   </div>
                 </motion.div>
               </div>

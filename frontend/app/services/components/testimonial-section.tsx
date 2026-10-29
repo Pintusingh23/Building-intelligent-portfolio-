@@ -5,21 +5,21 @@ import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Prince Gupta',
-    position: 'Managing Director, BharatConnect Solutions',
-    text: "Nitin's expertise helped us digitize our operations seamlessly. The platform expanded our reach significantly, boosting both sales and customer satisfaction.",
+    name: '[Client / Collaborator 1]',
+    position: '[Client Role / Company]',
+    text: "[Client Feedback: Add your verified client or team recommendation quote here.]",
     rating: 5,
   },
   {
-    name: 'Piyush Thapliyal',
-    position: 'Brand Manager, DesiCrafts Emporium',
-    text: 'Nitin truly understood our vision. The website not only looks fantastic but also resonates deeply with our audience and performs exceptionally well.',
+    name: '[Client / Collaborator 2]',
+    position: '[Client Role / Company]',
+    text: '[Client Feedback: Add your verified client or team recommendation quote here.]',
     rating: 5,
   },
   {
-    name: 'Prakash Madhok',
-    position: 'Proprietor, ApniDukaan Online',
-    text: 'For our e-commerce venture, Nitin built a robust and scalable platform. User-friendly for our team and customers alike — online business has grown significantly.',
+    name: '[Client / Collaborator 3]',
+    position: '[Client Role / Company]',
+    text: '[Client Feedback: Add your verified client or team recommendation quote here.]',
     rating: 5,
   },
 ];

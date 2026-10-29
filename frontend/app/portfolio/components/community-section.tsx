@@ -17,10 +17,9 @@ export default function CommunitySection() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                 >
-                    <h3 className="text-2xl font-semibold mb-4">Building Communities</h3>
+                    <h3 className="text-2xl font-semibold mb-4">Community & Tech Leadership</h3>
                     <p className="text-muted-foreground mb-6">
-                        I co-manage a thriving tech community with over 170+ developers and creators from diverse backgrounds.
-                        We foster collaboration, knowledge sharing, and professional growth.
+                        As founder of DeCodeTech, I am passionate about bringing developers, creators, and engineers together to share insights on Generative AI, modern web frameworks, and production-grade architectures.
                     </p>
                     
                     <div className="space-y-4">
@@ -29,8 +28,8 @@ export default function CommunitySection() {
                                 <Users className="h-5 w-5 text-primary" />
                             </div>
                             <div>
-                                <h4 className="font-medium">Membership Growth</h4>
-                                <p className="text-sm text-muted-foreground">Expanded community from 20 to 170+ members in 8 months</p>
+                                <h4 className="font-medium">DeCodeTech Network</h4>
+                                <p className="text-sm text-muted-foreground">Building a vibrant network of developers and innovators passionate about AI & full-stack development</p>
                             </div>
                         </div>
                         
@@ -39,8 +38,8 @@ export default function CommunitySection() {
                                 <Award className="h-5 w-5 text-primary" />
                             </div>
                             <div>
-                                <h4 className="font-medium">Events & Workshops</h4>
-                                <p className="text-sm text-muted-foreground">Organized 10+ events, workshops, and hackathons for upskilling</p>
+                                <h4 className="font-medium">Workshops & Knowledge Sharing</h4>
+                                <p className="text-sm text-muted-foreground">Conducting technical discussions on LLMs, agentic workflows, and modern web frameworks</p>
                             </div>
                         </div>
 

@@ -41,11 +41,11 @@ const CTASection = () => (
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
             <Link
-              href="mailto:nitinkumar12082005@gmail.com"
+              href="/contact"
               className="flex items-center gap-2 rounded-full border border-border px-8 py-3.5 font-medium text-foreground transition-colors hover:bg-muted"
             >
               <Mail className="h-4 w-4" />
-              Send an Email
+              Contact Directly
             </Link>
           </div>
 

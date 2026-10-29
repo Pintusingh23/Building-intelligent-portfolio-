@@ -13,35 +13,35 @@ interface Tech {
 
 const techStack: Record<TechCategory, Tech[]> = {
   "AI & Automation": [
-    { name: "LangChain", level: 88 },
-    { name: "RAG Pipelines", level: 82 },
-    { name: "Groq LLM", level: 85 },
-    { name: "n8n", level: 78 },
-    { name: "AI Agents", level: 85 },
+    { name: "Generative AI & LLMs", level: 90 },
+    { name: "RAG Pipelines", level: 88 },
+    { name: "Agentic AI", level: 86 },
+    { name: "LangChain", level: 85 },
+    { name: "Vector Databases", level: 82 },
   ],
   "Programming Languages": [
     { name: "Python", level: 92 },
-    { name: "JavaScript", level: 88 },
-    { name: "TypeScript", level: 75 },
-    { name: "C/C++", level: 72 },
+    { name: "JavaScript", level: 90 },
+    { name: "TypeScript", level: 82 },
+    { name: "C/C++", level: 75 },
   ],
   "Backend": [
-    { name: "FastAPI", level: 88 },
-    { name: "Django & DRF", level: 82 },
-    { name: "REST APIs", level: 90 },
-    { name: "WebHooks", level: 80 },
+    { name: "Node.js", level: 90 },
+    { name: "Python / FastAPI", level: 88 },
+    { name: "REST APIs", level: 92 },
+    { name: "Express.js", level: 85 },
   ],
   "Frontend": [
-    { name: "React", level: 82 },
-    { name: "Next.js", level: 78 },
+    { name: "React.js", level: 92 },
+    { name: "Next.js", level: 88 },
     { name: "Tailwind CSS", level: 90 },
-    { name: "Framer Motion", level: 75 },
+    { name: "Framer Motion", level: 82 },
   ],
   "Databases & DevOps": [
-    { name: "PostgreSQL", level: 80 },
-    { name: "Supabase", level: 78 },
-    { name: "MongoDB", level: 65 },
-    { name: "Docker", level: 72 },
+    { name: "PostgreSQL", level: 82 },
+    { name: "MongoDB", level: 80 },
+    { name: "Supabase", level: 80 },
+    { name: "Docker & Git", level: 78 },
   ]
 };
 

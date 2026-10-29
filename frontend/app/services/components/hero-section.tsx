@@ -1,14 +1,8 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Globe, Zap, Star } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
-
-const stats = [
-  { icon: Globe, label: 'Clients Worldwide', value: '20+' },
-  { icon: Zap, label: 'Avg. Delivery', value: '14 days' },
-  { icon: Star, label: 'Satisfaction', value: '100%' },
-];
 
 const HeroSection: React.FC = () => (
   <section className="relative overflow-hidden py-28 md:py-40 px-4">
@@ -80,22 +74,6 @@ const HeroSection: React.FC = () => (
         >
           Explore Services
         </Link>
-      </motion.div>
-
-      {/* Stats */}
-      <motion.div
-        initial={{ opacity: 0, y: 14 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.45, delay: 0.5 }}
-        className="flex flex-wrap items-center justify-center gap-10 text-sm"
-      >
-        {stats.map(({ icon: Icon, label, value }) => (
-          <div key={label} className="flex items-center gap-2">
-            <Icon className="h-4 w-4 text-primary" />
-            <span className="font-bold text-foreground">{value}</span>
-            <span className="text-muted-foreground">{label}</span>
-          </div>
-        ))}
       </motion.div>
     </div>
   </section>

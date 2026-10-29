@@ -156,8 +156,26 @@ export default function Header() {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.2 }}
           >
-            <Link href="/" className="flex items-center gap-2" data-interactive-cursor="true">
-                <img src="Portfolio_logo.webp" alt="NS" width={32} height={32} fetchPriority="high" decoding="async" className="h-8 w-8" />
+            <Link href="/" className="flex items-center gap-2.5" data-interactive-cursor="true">
+              <div className="relative h-9 w-9 overflow-hidden rounded-xl border border-primary/25 shadow-md bg-black/40 flex items-center justify-center">
+                <img 
+                  src="/decode-logo.png" 
+                  alt="DeCode Logo" 
+                  width={36} 
+                  height={36} 
+                  fetchPriority="high" 
+                  decoding="async" 
+                  className="h-full w-full object-cover" 
+                />
+              </div>
+              <div className="flex flex-col">
+                <span className="font-extrabold text-base tracking-tight leading-tight text-foreground flex items-center gap-0.5">
+                  DeCode<span className="text-primary font-black">Tech</span>
+                </span>
+                <span className="text-[10px] font-semibold text-muted-foreground tracking-wider uppercase">
+                  Pintu Singh
+                </span>
+              </div>
             </Link>
           </motion.div>
           
@@ -270,7 +288,26 @@ export default function Header() {
                 side="right" 
                 className="border-l-primary/10 bg-background/95 backdrop-blur-xl"
               >
-                <div className="flex flex-col space-y-2 mt-8">
+                <div className="flex items-center gap-3 pt-4 pb-6 border-b border-border/40">
+                  <div className="relative h-10 w-10 overflow-hidden rounded-xl border border-primary/25 shadow-md bg-black/40">
+                    <img 
+                      src="/decode-logo.png" 
+                      alt="DeCode Logo" 
+                      width={40} 
+                      height={40} 
+                      className="h-full w-full object-cover" 
+                    />
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="font-extrabold text-base tracking-tight leading-tight text-foreground flex items-center gap-0.5">
+                      DeCode<span className="text-primary font-black">Tech</span>
+                    </span>
+                    <span className="text-[11px] font-semibold text-muted-foreground tracking-wider uppercase">
+                      Pintu Singh
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col space-y-2 mt-6">
                   {navigation.map((item, index) => (
                     <motion.div
                       key={item.name}

@@ -15,21 +15,21 @@ import { cn } from "@/lib/utils";
 
 const testimonials = [
   {
-    quote: "Nitin's expertise helped us digitize our operations seamlessly. Our new platform has expanded our reach across India, boosting sales and customer satisfaction.",
-    author: "Prince Gupta",
-    role: "Managing Director, BharatConnect Solutions",
+    quote: "[Client / Collaborator Recommendation: Add your verified client or team recommendation quote here]",
+    author: "[Client / Peer Name]",
+    role: "[Role / Organization]",
     avatar: "https://images.pexels.com/photos/3778680/pexels-photo-3778680.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1",
   },
   {
-    quote: "Nitin truly understood our vision for connecting with the Indian market. The website he designed not only looks fantastic but also resonates deeply with our local audience.",
-    author: "Piyush Thapliyal",
-    role: "Brand Manager, DesiCrafts Emporium",
+    quote: "[Client / Collaborator Recommendation: Add your verified client or team recommendation quote here]",
+    author: "[Client / Peer Name]",
+    role: "[Role / Organization]",
     avatar: "https://images.pexels.com/photos/4100667/pexels-photo-4100667.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1",
   },
   {
-    quote: "For our pan-India e-commerce venture, Nitin developed a robust and scalable platform. It's user-friendly for both our team and customers, leading to a significant uplift in our online business.",
-    author: "Prakash Madhok",
-    role: "Proprietor, ApniDukaan Online",
+    quote: "[Client / Collaborator Recommendation: Add your verified client or team recommendation quote here]",
+    author: "[Client / Peer Name]",
+    role: "[Role / Organization]",
     avatar: "https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1",
   },
 ];
